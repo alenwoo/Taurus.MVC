@@ -1,0 +1,12 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs
+/Taurus.Controllers/bin
+/Taurus.Controllers/obj
+/Taurus.Core/bin
+/Taurus.Core/obj
+/Taurus.View_NetCore/bin
+/Taurus.View_NetCore/obj
+/Taurus.View_NetCore/wwwroot/Logs

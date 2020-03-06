@@ -19,8 +19,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\CYQ.Data-GitHub\trunk\CYQ.Data_NetCore.csproj" />
     <ProjectReference Include="..\Taurus.Core\Taurus.Core_NetCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CYQ.Data">
+      <HintPath>..\..\cyqdata\bin\Debug\netcoreapp2.1\CYQ.Data.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
