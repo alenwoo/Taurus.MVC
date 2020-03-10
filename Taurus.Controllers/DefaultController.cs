@@ -13,7 +13,7 @@ namespace Taurus.Controllers
         [HttpGet]
         public override void Default()
         {
-            Write("Hello world");
+            Write("Hello world1");
         }
         /* */
         //本方法可以在其它文件里实现（partial类）

@@ -14,8 +14,9 @@ namespace Taurus.View
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDistributedMemoryCache();//支持Session的必要组件
-            services.AddSession();
+
+            //services.AddDistributedMemoryCache();//支持Session的必要组件  //wjc注释
+            //services.AddSession();    // wjc注释
             services.AddHttpContext();
         }
 
@@ -26,8 +27,8 @@ namespace Taurus.View
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseStaticFiles();
-            app.UseSession();
+            //app.UseStaticFiles(); // wjc注释
+            //app.UseSession(); // wjc注释
 
             app.UseHttpContext();
             app.UseTaurusMvc(env);

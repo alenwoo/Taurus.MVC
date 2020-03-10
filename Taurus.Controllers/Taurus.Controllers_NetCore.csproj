@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -19,12 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Taurus.Core\Taurus.Core_NetCore.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="CYQ.Data">
       <HintPath>..\..\cyqdata\bin\Debug\netcoreapp2.1\CYQ.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Taurus.Core">
+      <HintPath>..\..\Taurus.Core\bin\Debug\netcoreapp2.1\Taurus.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taurus.View_NetCore", "Taurus.View_NetCore\Taurus.View_NetCore.csproj", "{B5D02384-28F4-4DFC-8A60-91D9D53489DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taurus.Core_NetCore", "Taurus.Core\Taurus.Core_NetCore.csproj", "{D63FAAFD-2AD9-4A8C-AD50-FA1943107F5E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taurus.Controllers_NetCore", "Taurus.Controllers\Taurus.Controllers_NetCore.csproj", "{5D64B052-D185-465D-915C-C40AEA61F1D0}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{B5D02384-28F4-4DFC-8A60-91D9D53489DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D02384-28F4-4DFC-8A60-91D9D53489DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D02384-28F4-4DFC-8A60-91D9D53489DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D63FAAFD-2AD9-4A8C-AD50-FA1943107F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D63FAAFD-2AD9-4A8C-AD50-FA1943107F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D63FAAFD-2AD9-4A8C-AD50-FA1943107F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D63FAAFD-2AD9-4A8C-AD50-FA1943107F5E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5D64B052-D185-465D-915C-C40AEA61F1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5D64B052-D185-465D-915C-C40AEA61F1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D64B052-D185-465D-915C-C40AEA61F1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU

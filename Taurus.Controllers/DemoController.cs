@@ -172,6 +172,11 @@ namespace Taurus.Controllers
 
 
         }
+
+        public void hello() {
+            this.Write("demo.hello");
+        
+        }
         public void Show()
         {
 
@@ -227,7 +232,7 @@ namespace Taurus.Controllers
 
         private void InitData()
         {
-            if (!DBTool.Exists("UserType", "U", "xml path={0}App_Data"))
+            if (!DBTool.Exists("UserType","U","xml path={0}App_Data"))
             {
                 using (UserType ut = new UserType())
                 {
